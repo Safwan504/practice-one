@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Practice</title>
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <header class="bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark container">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img width="200px" class="img-fluid" src="images/logo.PNG" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#review">Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Carousel -->
+    <div class="carousel-section">
+        <div class="container">
+            <div class="row">
+
+                <div id="carouselExampleControls" class="carousel slide carousel-fade  pt-5 pb-5" data-bs-ride="carousel" data-bs-interval="4000">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/img1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/img2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/img3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carousel End -->
+
+
+
+
+    <!-- banner section -->
+
+    <section class="banner">
+        <div class="container">
+            <div class="row custom-row justify-content-center align-items-center">
+                <div class="col-xl-6 col-lg-6 col-md-8 col-sm-8 col-10">
+                    <div class="banner-items text-center">
+                        <h1>Safwan Chowdhury</h1>
+                        <span></span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt blanditiis fugit veritatis
+                            quis
+                            illum? Laboriosam autem quo unde quod nemo!
+                        </p>
+                        <button class="btn custom-btn mt-5"><strong>HIRE ME</strong></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- product section -->
+
+    <section class="products">
+        <div class="container">
+            <div class="row justify-content-center align-items-center pt-5 pb-5">
+                <div data-aos="fade-up" class="col-sm-12 col-md-6 col-lg-4 text-center mx-auto custom-cards">
+                    <div class="card">
+                        <img class="card-img-top" src="https://i.ibb.co/RDyL3N7/fitness.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">My Gym</h5>
+                            <p class="card-text">This is my gym, I will add some details about gym later as I am
+                                practicing with this project. So I will do it later.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="col-sm-12 col-md-6 col-lg-4 text-center custom-cards">
+                    <div class="card">
+                        <img class="card-img-top" src="https://i.ibb.co/cY8LY2V/dance.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Dance Classes</h5>
+                            <p class="card-text">This is dance class, I will add some details about it later as I am
+                                practicing with this project. So I will do it later.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="col-sm-12 col-md-6 col-lg-4 text-center custom-cards">
+                    <div class="card">
+                        <img class="card-img-top" src="https://i.ibb.co/R6Lt1W5/yoga.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Yoga Time</h5>
+                            <p class="card-text">This is about yoga, I will add some details about yoga later as I am
+                                practicing with this project.When I am free I will add details.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <section class="footer text-center">
+        <p class="text-muted">Copyright &copy;Safwan Chowdhury</p>
+    </section>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 150,
+            duration: 1000,
+            easing: 'ease',
+        });
+    </script>
+</body>
+
+</html>

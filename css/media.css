@@ -1,0 +1,18 @@
+@media(max-width: 991px){
+    .custom-cards{
+        margin: 10px 0;
+    }
+}
+
+@media(max-width: 575px){
+    .banner-items h1 {
+        font-weight: 600;
+    }
+    .custom-row{
+        height: 80vh;
+    }
+    .custom-cards{
+        margin: 7px 0;
+    }
+}
+
