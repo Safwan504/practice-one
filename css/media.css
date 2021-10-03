@@ -4,12 +4,15 @@
     }
 }
 
+
+
+
 @media(max-width: 575px){
     .banner-items h1 {
         font-weight: 600;
     }
     .custom-row{
-        height: 80vh;
+        height: 60vh;
     }
     .custom-cards{
         margin: 7px 0;
